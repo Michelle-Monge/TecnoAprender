@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+    padding-top: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu {
+    background-color: #3586E9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #35E0E9;
+    border-radius: 5px;
+}
+
+h2{
+    color: #3E35E9;
+}
+
+.servicios {
+    padding: 40px;
+    text-align: center;
+}
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.tarjeta {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.tarjeta h3 {
+    color: #3E35E9;
+}
+
+.tarjeta p {
+    color: #333;
+    line-height: 1.5;
+}
+
+.cursos {
+    padding: 40px;
+    text-align: center;
+}
+
+.cursos h2 {
+    color: #3E35E9;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th {
+    background: #3586E9;
+    color: white;
+    padding: 15px;
+}
+
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery__track {
+    display: grid;/*Permite ordenar las filas y columnas*/
+    grid-template-columns: repeat(3, 1fr);/*Cada columna ocupara el mismo espacio*/
+    gap: 25px;/*Espacio entre las tarjetas*/
+}
+
+.gallery__item {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.gallery__item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /*Ayuda a que las imagenes llenen el espacio en la tarjeta sin deformarse*/
+    border-radius: 10px; /*La imagenes toman una forma menos cuadrada*/
+}
+
+.gallery__item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3E35E9;
+}
+
+.audio-tecno {
+    padding: 40px;
+    text-align: center;
+}
+
+.tarjeta-audio {
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.tarjeta-audio h3 {
+    color: #3E35E9;
+}
+
+.tarjeta-audio p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+}
+
+.footer {
+    background-color:#3586E9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
